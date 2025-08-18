@@ -27,7 +27,7 @@ export default function useOrder() {
     }
 
     const placeOrder = () => {
-        console.log('Saving the order ... ');
+        //console.log('Saving the order ... ');
         setOrder([]);
         setTip(0)
     }
